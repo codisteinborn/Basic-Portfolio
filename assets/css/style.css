@@ -1,0 +1,63 @@
+nav{
+    width: 960px;
+    margin: 32px;
+}
+article{
+    width: 650px;
+    margin-left: 32px;
+    float: left;
+    line-height: 1.75;
+}
+aside{
+    width: 270px;
+    margin-right: 32px;
+    margin-left: 40px;
+    float: right;
+}
+h1, h2, h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h1{
+    float: left;
+}
+.link{
+    float: right;
+    margin: 7px;
+    color: #777;
+}
+#mepic{
+    width: 220px;
+    height: 180px;
+    margin: 10px;
+    float: left;
+}
+.portpic{
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+}
+.social{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+footer{
+    position:relative;
+    bottom:0;
+    width:100%;
+    height:100px;
+    color: #777;
+}
+#dog, #cat, #fish, #turtle, #bunny{
+    background: #4aaaa5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 250px;
+    height: 20px;
+    margin: 20px;
+
+}
+#port{
+    text-align: center;
+    position: relative;
+}
