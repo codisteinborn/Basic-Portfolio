@@ -88,6 +88,10 @@ p{
     height: 70px;
     width: 70px;
     margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
 }
 footer{
     text-align: center;
@@ -102,6 +106,20 @@ footer{
     font-size: 12px;
     padding: 15px;
 }
+#contactform{
+    text-align: left;
+}
+#message{
+    width: 300px;
+    height: 200px;
+}
+label{
+    margin-top: 0px;
+    float: left;
+    margin-right: 10px;
+}
+
+
 #dogtxt, #cat, #fish, #turtle, #bunny{
     background: #4aaaa5;
     color: white;
