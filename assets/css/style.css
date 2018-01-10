@@ -1,38 +1,69 @@
+
 nav{
-    width: 960px;
-    margin: 32px;
-    background-color: #4aaaa5;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 100px;
+    background-color: whitesmoke;
+    color: rgb(233, 135, 152);
+    border-style: solid;
+    border-width: 15px;
+    border-color: white;
+    border-radius: 25px;
+}
+body{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/regal.png");
 }
 article{
     width: 650px;
     margin-left: 32px;
+    margin-right: 15px;
     float: left;
     line-height: 1.75;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    border-radius: 25px;
+    color: rgb(233, 135, 152);
     
 }
 aside{
     width: 270px;
+    text-align: center;
     margin-right: 32px;
     margin-left: 40px;
     float: right;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    border-radius: 25px;
 }
 h1, h2, h3{
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, serif;
+    color: rgb(233, 135, 152);
 }
 h1{
     float: left;
-    
+    margin-left: 15px;
+    font-size: 40px;
+}
+p{
+    color: rgb(233, 135, 152);
 }
 .link{
     float: right;
-    margin: 7px;
-    color: #777;
+    padding: 5px;
+    margin: 15px;
+    margin-top: 20px;
+    color: rgb(233, 135, 152);
 }
 #mepic{
     width: 220px;
     height: 180px;
     margin: 10px;
     float: left;
+    border: 5px, solid, white;
 }
 .portpic{
     float:left;
@@ -56,6 +87,7 @@ footer{
     color: #777;
     background-color: #666;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
 }
 #dogtxt, #cat, #fish, #turtle, #bunny{
     background: #4aaaa5;
@@ -63,7 +95,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     width: 250px;
     height: 20px;
-    margin: 20px;
+
     position:absolute;
     bottom:0;
 
