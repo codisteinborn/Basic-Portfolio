@@ -1,12 +1,14 @@
 nav{
     width: 960px;
     margin: 32px;
+    background-color: #4aaaa5;
 }
 article{
     width: 650px;
     margin-left: 32px;
     float: left;
     line-height: 1.75;
+    
 }
 aside{
     width: 270px;
@@ -19,6 +21,7 @@ h1, h2, h3{
 }
 h1{
     float: left;
+    
 }
 .link{
     float: right;
@@ -32,9 +35,11 @@ h1{
     float: left;
 }
 .portpic{
+    float:left;
     width: 250px;
     height: 200px;
     margin: 20px;
+    position: relative;
 }
 .social{
     height: 100px;
@@ -42,19 +47,25 @@ h1{
     margin: 5px;
 }
 footer{
-    position:relative;
+    text-align: center;
+    position: fixed;
     bottom:0;
+    left:0;
     width:100%;
-    height:100px;
+    height:75px;
     color: #777;
+    background-color: #666;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#dog, #cat, #fish, #turtle, #bunny{
+#dogtxt, #cat, #fish, #turtle, #bunny{
     background: #4aaaa5;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     width: 250px;
     height: 20px;
     margin: 20px;
+    position:absolute;
+    bottom:0;
 
 }
 #port{
