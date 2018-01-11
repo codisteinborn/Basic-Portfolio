@@ -40,7 +40,7 @@ article{
     border-color: white;
     border-radius: 25px;
     color: rgb(233, 135, 152);
-    font-family: 'Georgia', Times, serif;
+    font-family: 'Lato', sans-serif;
     clear:both;
     
 }
@@ -55,9 +55,10 @@ aside{
     border-width: 10px;
     border-color: white;
     border-radius: 25px;
+
 }
 h1, h2, h3{
-    font-family: 'Georgia', Times, serif;
+    font-family: 'Lato', sans-serif;
     color: rgb(233, 135, 152);
 }
 h1{
@@ -80,7 +81,7 @@ p{
     margin-top: 35px;
     color: rgb(233, 135, 152);
     text-decoration: none;
-    font-family: 'Georgia', Times, serif;
+    font-family: 'Lato', sans-serif;
 }
 .link:hover{
     animation: shake 0.5s;
@@ -100,12 +101,13 @@ p{
     float:left;
     width: 275px;
     height: 200px;
-    margin: 20px;
+    margin: 15px;
     position: relative;
     border-style: solid;
     border-color: white;
     border-width: 1px;
     border-radius: 5px;
+    z-index: 2;
 }
 .social{
     height: 70px;
@@ -129,7 +131,22 @@ footer{
     height:25px;
     color: gray;
     background-color: rgb(184, 178, 178);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    clear:both;
+    margin-top: auto;
+}
+#foot{
+    text-align: center;
+    position: relative;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height:25px;
+    color: gray;
+    background-color: rgb(184, 178, 178);
+    font-family: 'Lato', sans-serif;
     font-size: 12px;
     padding: 15px;
     clear:both;
@@ -141,6 +158,15 @@ footer{
 #message{
     width: 300px;
     height: 200px;
+}
+#fname:focus{
+    background: lightblue;
+}
+#lname:focus{
+    background: lightblue;
+}
+#message:focus{
+    background: lightblue;
 }
 label{
     margin-top: 0px;
@@ -160,10 +186,44 @@ label{
     float: left;
  
 }
-section{
-    margin:auto;
-}
+
 #dog{
     position: absolute;
-    bottom:0;
+    bottom:5px;
+    height: 20px;
+    left: 150px;
+    z-index: 5;
 }
+#cat{
+    position: absolute;
+    bottom:5px;
+    height: 20px;
+    right: 150px;
+    z-index: 5;  
+}
+#doggy, #kitty, #fishy, #turtly, #bunnyy{
+    height: 250px;
+    float: left;
+    position: relative;
+}
+#fish{
+    position: absolute;
+    bottom:5px;
+    height: 20px;
+    left: 150px;
+    z-index: 5;
+}
+#turtle{
+    position: absolute;
+    bottom:5px;
+    height: 20px;
+    right: 150px;
+    z-index: 5; 
+}
+#bunny{
+        position: absolute;
+        bottom:5px;
+        height: 20px;
+        left: 150px;
+        z-index: 5;
+    }
