@@ -1,6 +1,20 @@
 
+@keyframes shake{
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+/* shake keyframe code from C3 website */
+
 nav{
-    margin: auto;
     margin-bottom: 18px;
     height: 100px;
     background-color: whitesmoke;
@@ -17,7 +31,7 @@ article{
     width: 650px;
     padding:10px;
     margin-left: 32px;
-    margin-right: 15px;
+    margin-right: 0px;
     float: left;
     line-height: 1.75;
     background-color: whitesmoke;
@@ -27,13 +41,14 @@ article{
     border-radius: 25px;
     color: rgb(233, 135, 152);
     font-family: 'Georgia', Times, serif;
+    clear:both;
     
 }
 aside{
     width: 270px;
     text-align: center;
-    margin-right: 32px;
     margin-left: 40px;
+    margin-right: 25px;
     float: right;
     background-color: whitesmoke;
     border-style: solid;
@@ -67,6 +82,10 @@ p{
     text-decoration: none;
     font-family: 'Georgia', Times, serif;
 }
+.link:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: 1;
+}
 #mepic{
     width: 220px;
     height: 180px;
@@ -79,41 +98,72 @@ p{
 }
 .portpic{
     float:left;
-    width: 250px;
+    width: 275px;
     height: 200px;
     margin: 20px;
     position: relative;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
 }
 .social{
     height: 70px;
     width: 70px;
     margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.social:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: 1;
 }
 footer{
     text-align: center;
     position: fixed;
     bottom:0;
     left:0;
-    width:100%;
-    height:50px;
+    width: 100%;
+    height:25px;
     color: gray;
     background-color: rgb(184, 178, 178);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     padding: 15px;
+    clear:both;
+    margin-top: auto;
 }
-#dogtxt, #cat, #fish, #turtle, #bunny{
-    background: #4aaaa5;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 250px;
-    height: 20px;
-
+#contactform{
+    text-align: left;
+}
+#message{
+    width: 300px;
+    height: 200px;
+}
+label{
+    margin-top: 0px;
+    float: left;
+    margin-right: 10px;
+}
+#pictext{
     position:absolute;
-    bottom:0;
-
+    bottom:0px;
+    padding: 15px;
+    margin: auto;
 }
+
 #port{
     text-align: center;
     position: relative;
+    float: left;
+ 
+}
+section{
+    margin:auto;
+}
+#dog{
+    position: absolute;
+    bottom:0;
 }
